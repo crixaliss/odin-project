@@ -1,0 +1,50 @@
+/* Global style */
+p {
+    font-family: Roboto;
+
+}
+body {
+    margin: 0;
+}
+
+/* Image Styling */
+
+#logo {
+    width: 80px;
+}
+
+
+
+
+
+
+/* Other Styling  */
+
+#left-navbar p {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+}
+#left-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+#right-navbar {
+    display: flex;
+    gap: 25px;
+}
+#right-navbar p {
+    color: white;
+}
+#section1 {
+    background-color: #1F2937;
+}
