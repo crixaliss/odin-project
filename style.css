@@ -116,23 +116,31 @@ body {
 }
 #section4-wrapper {
     background-color: #3882F6;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: auto;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    max-width: 900px;
 }
+
 #section4-wrapper-para p {
     color: white;
     margin: 0;
 }
 #section4 {
     margin-bottom: 100px;
+    
 }
 #footer-text {
     font-size: 25px;
     
+}
+#footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
 }
