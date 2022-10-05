@@ -1,13 +1,13 @@
 /* Global style */
 p {
     font-family: Roboto;
-
 }
 h2 {
     font-family: Roboto;
 }
 body {
     margin: 0;
+   
 }
 
 /* Image Styling */
@@ -100,4 +100,39 @@ body {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+#second-para {
+    text-align: right;
+}
+#section3 {
+    background-color: lightgray;
+    padding: 100px 230px 100px 200px;
+    margin-bottom: 80px;
+}
+#first-para p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 200;
+}
+#section4-wrapper {
+    background-color: #3882F6;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#section4-wrapper-para p {
+    color: white;
+    margin: 0;
+}
+#section4 {
+    margin-bottom: 100px;
+}
+#footer-text {
+    font-size: 25px;
+    
 }
